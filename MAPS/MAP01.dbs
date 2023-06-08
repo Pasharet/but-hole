@@ -1,0 +1,219 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "GZDoom_DoomUDMF.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	MAP01
+	{
+		scriptcompiler = "zdoom_acs.cfg";
+		defaultfloortexture = "DEVAGRIA";
+		overrideceilheight = false;
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 1;
+				location = "D:\\_DEV\\gzdoom-4-10-0-Windows-64bit\\but_hole";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaulttoptexture = "DEVD1";
+		overridemiddletexture = false;
+		viewpositionx = -10803.77f;
+		viewpositiony = 3666.59f;
+		viewscale = 0.1169067f;
+		overridefloortexture = false;
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			backoffsety = 0;
+			backoffsetx = 0;
+			backscalex = 100;
+			gridsize = 32f;
+			background = "";
+			backsource = 0;
+			backscaley = 100;
+			gridrotate = 0f;
+			gridoriginx = 0f;
+			gridoriginy = 0f;
+		}
+		defaultceiltexture = "F_SKY1";
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overridetoptexture = false;
+		custombrightness = 196;
+		overrideceiltexture = false;
+		defaultwalltexture = "DEVD1";
+		defaultbottomtexture = "DEVD1";
+		
+		taglabels
+		{
+			
+			taglabel1
+			{
+				tag = 1;
+				label = "line_horizon";
+			}
+			
+			taglabel2
+			{
+				tag = 2;
+				label = "teleport_svetofor";
+			}
+			
+			taglabel3
+			{
+				tag = 3;
+				label = "teleport_debug";
+			}
+			
+			taglabel4
+			{
+				tag = 10;
+				label = "kozyrek";
+			}
+			
+			taglabel5
+			{
+				tag = 11;
+				label = "test";
+			}
+			
+			taglabel6
+			{
+				tag = 12;
+				label = "prozrachnyj_zabor";
+			}
+			
+			taglabel7
+			{
+				tag = 20;
+				label = "svetofor_slope1";
+			}
+			
+			taglabel8
+			{
+				tag = 21;
+				label = "svetofor_slope2";
+			}
+			
+			taglabel9
+			{
+				tag = 22;
+				label = "svetofor_slope3";
+			}
+			
+			taglabel10
+			{
+				tag = 23;
+				label = "svetofor_slope4";
+			}
+			
+			taglabel11
+			{
+				tag = 24;
+				label = "svetofor_slope5";
+			}
+			
+			taglabel12
+			{
+				tag = 25;
+				label = "svetofor_slope6";
+			}
+			
+			taglabel13
+			{
+				tag = 30;
+				label = "lavochka";
+			}
+			
+			taglabel14
+			{
+				tag = 31;
+				label = "fonarnyj_stolb1";
+			}
+			
+			taglabel15
+			{
+				tag = 32;
+				label = "fonarnyj_stolb2";
+			}
+		}
+		
+		plugins
+		{
+			
+			threedfloormode
+			{
+				
+				controlsectorarea
+				{
+					usecustomtagrange = false;
+					outerleft = -512f;
+					outerright = 0f;
+					outertop = 512f;
+					outerbottom = 0f;
+				}
+			}
+		}
+		
+		fieldtypes
+		{
+			
+			sidedef
+			{
+				offsetx_bottom = 1;
+				offsetx_mid = 1;
+				offsetx_top = 1;
+			}
+			
+			sector
+			{
+				xpanningceiling = 1;
+				ypanningceiling = 1;
+				rotationceiling = 17;
+				xscaleceiling = 1;
+				yscaleceiling = 1;
+				xpanningfloor = 1;
+				ypanningfloor = 1;
+				xscalefloor = 1;
+				yscalefloor = 1;
+				rotationfloor = 17;
+			}
+		}
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "DIALOGUE";
+				hash = 3588187714;
+				resource;
+				tabtype = 0;
+				scripttype = 18;
+			}
+			
+			document1
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				activetab = true;
+			}
+		}
+	}
+}

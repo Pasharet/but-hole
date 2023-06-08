@@ -1,0 +1,33 @@
+#include "zcommon.acs"
+
+script 1 ENTER
+{
+	SetActorProperty(0, APROP_Speed, 0.7);
+	SetActorProperty(0, APROP_ViewHeight, 54.0);
+	SetActorProperty(0, APROP_AttackZOffset, 25.0);
+	SetActorProperty(0, APROP_ScaleX, 1.1);
+	SetActorProperty(0, APROP_ScaleY, 1.1);
+
+	ClearInventory();
+//	GiveInventory("Fist", 1);
+//	SetWeapon("Fist");
+
+	Print(s:"\c[Gold]Sovkhoznaya St. v0.4\n");
+
+//	While(TRUE)
+//	{
+//		Print(f:GetActorX(0), s:" : ",
+//			f:GetActorY(0));
+//		Delay(10);
+//	}
+
+//	While(TRUE)
+//	{
+//		SetActorProperty(0, APROP_Friction, 1.94);
+//		if (GetPlayerInput(-1, INPUT_FORWARDMOVE)  ||  GetPlayerInput(-1, INPUT_SIDEMOVE))
+//		{
+//			SetActorProperty(0, APROP_Friction, 1.0);
+//		}
+//		Delay(1);
+//	}
+}

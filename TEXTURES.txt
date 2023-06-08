@@ -1,0 +1,77 @@
+// Walls
+Texture "REDBRI01", 128, 128
+{
+	Patch "REDBRI01", 0, 0
+}
+
+Texture "REDBRI02", 128, 128
+{
+	Patch "REDBRI02", 0, 0
+}
+
+Texture "HRUSH01", 128, 672
+{
+	Patch "HRUSH01", 0, 0
+}
+
+Texture "MOSAIC01", 128, 128
+{
+	Patch "MOSAIC01", 0, 0
+}
+
+Texture "SANDPA01", 128, 128
+{
+	Patch "SANDPA01", 0, 0
+}
+
+Texture "ENTWIN01", 128, 672
+{
+	Patch "ENTWIN01", 0, 0
+}
+
+Texture "CONCRW01", 128, 128
+{
+	Patch "CONCRW01", 0, 0
+}
+
+// Trees
+Texture "TREE01", 128, 640
+{
+	Patch "TREE01", 0, 0
+}
+
+// Flats
+Texture "GROUND01", 256, 256
+{
+	Patch "GROUND01", 0, 0
+}
+
+Texture "ASPHAL01", 128, 128
+{
+	Patch "ASPHAL01", 0, 0
+}
+
+Texture "ASPHAL02", 128, 128
+{
+	Patch "ASPHAL02", 0, 0
+}
+
+Texture "SIGN01", 128, 128
+{
+	Patch "SIGN01", 0, 0
+}
+
+Texture "BORDER01", 8, 128
+{
+	Patch "BORDER01", 0, 0
+}
+
+Texture "TILE01", 32, 32
+{
+	Patch "TILE01", 0, 0
+}
+
+Texture "CONCRE01", 32, 32
+{
+	Patch "CONCRE01", 0, 0
+}

@@ -1,0 +1,34 @@
+decal BOARD01 1
+{
+	pic BOARD01
+	x-scale 0.50
+	y-scale 0.50
+}
+
+//decal PAINT01 2
+//{
+//	pic PAINT01
+//	x-scale 1.00
+//	y-scale 1.00
+//}
+
+//decal PAINT02 3
+//{
+//	pic PAINT02
+//	x-scale 1.00
+//	y-scale 1.00
+//}
+
+decal DOOR01 4
+{
+	pic DOOR01
+	x-scale 1.00
+	y-scale 1.00
+}
+
+decal GATES01 5
+{
+	pic GATES01
+	x-scale 1.00
+	y-scale 1.00
+}

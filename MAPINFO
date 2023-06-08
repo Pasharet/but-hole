@@ -1,0 +1,11 @@
+gameinfo {
+    Intro { Video = "MOVIES/VALVE.IVF" }
+}
+
+map MAP01 "Sovkhoznaya St. v0.4"
+{
+	sky1 = "NIGHT"
+	music = "PRIPYATNIGHT"
+	NoCrouch
+	NoJump
+}
