@@ -17,7 +17,7 @@ maps
 			resource0
 			{
 				type = 1;
-				location = "D:\\_DEV\\gzdoom-4-10-0-Windows-64bit\\but_hole";
+				location = "D:\\SYNC\\GZDoom_DEV\\gzdoom-4-10-0-Windows-64bit\\but_hole";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -25,9 +25,9 @@ maps
 		}
 		defaulttoptexture = "DEVD1";
 		overridemiddletexture = false;
-		viewpositionx = -10803.77f;
-		viewpositiony = 3666.59f;
-		viewscale = 0.1169067f;
+		viewpositionx = -9866.568f;
+		viewpositiony = 11184.26f;
+		viewscale = 4.751535f;
 		overridefloortexture = false;
 		customceilheight = 128;
 		customfloorheight = 0;
@@ -37,7 +37,7 @@ maps
 			backoffsety = 0;
 			backoffsetx = 0;
 			backscalex = 100;
-			gridsize = 32f;
+			gridsize = 8f;
 			background = "";
 			backsource = 0;
 			backscaley = 100;
@@ -81,19 +81,19 @@ maps
 			taglabel4
 			{
 				tag = 10;
-				label = "kozyrek";
+				label = "kozyrek1";
 			}
 			
 			taglabel5
 			{
 				tag = 11;
-				label = "test";
+				label = "kozyrek2";
 			}
 			
 			taglabel6
 			{
 				tag = 12;
-				label = "prozrachnyj_zabor";
+				label = "kozyrek3";
 			}
 			
 			taglabel7
@@ -122,32 +122,32 @@ maps
 			
 			taglabel11
 			{
-				tag = 24;
-				label = "svetofor_slope5";
-			}
-			
-			taglabel12
-			{
 				tag = 25;
 				label = "svetofor_slope6";
 			}
 			
-			taglabel13
+			taglabel12
 			{
 				tag = 30;
-				label = "lavochka";
+				label = "lavochka1";
 			}
 			
-			taglabel14
+			taglabel13
 			{
 				tag = 31;
 				label = "fonarnyj_stolb1";
 			}
 			
-			taglabel15
+			taglabel14
 			{
 				tag = 32;
 				label = "fonarnyj_stolb2";
+			}
+			
+			taglabel15
+			{
+				tag = 33;
+				label = "lavochka2";
 			}
 		}
 		
@@ -175,21 +175,26 @@ maps
 			{
 				offsetx_bottom = 1;
 				offsetx_mid = 1;
-				offsetx_top = 1;
+				offsety_bottom = 1;
 			}
 			
 			sector
 			{
 				xpanningceiling = 1;
 				ypanningceiling = 1;
-				rotationceiling = 17;
+				rotationceiling = 1;
 				xscaleceiling = 1;
 				yscaleceiling = 1;
 				xpanningfloor = 1;
 				ypanningfloor = 1;
 				xscalefloor = 1;
 				yscalefloor = 1;
-				rotationfloor = 17;
+				rotationfloor = 1;
+			}
+			
+			thing
+			{
+				arg0str = 2;
 			}
 		}
 		

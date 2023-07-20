@@ -5,7 +5,7 @@ gameinfo {
 map MAP01 "Sovkhoznaya St. v0.4"
 {
 	sky1 = "NIGHT"
-	music = "PRIPYATNIGHT"
+	music = "RUNNIN3"
 	NoCrouch
 	NoJump
 }

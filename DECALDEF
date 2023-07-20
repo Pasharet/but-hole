@@ -32,3 +32,10 @@ decal GATES01 5
 	x-scale 1.00
 	y-scale 1.00
 }
+
+decal STORE01 6
+{
+	pic STORE01
+	x-scale 1.00
+	y-scale 1.00
+}

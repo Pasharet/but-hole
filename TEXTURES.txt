@@ -34,16 +34,62 @@ Texture "CONCRW01", 128, 128
 	Patch "CONCRW01", 0, 0
 }
 
+Texture "POST01", 16, 64
+{
+	Patch "POST01", 0, 0
+}
+
 // Trees
 Texture "TREE01", 128, 640
 {
 	Patch "TREE01", 0, 0
 }
 
+Texture "TREE02", 128, 480
+{
+	Patch "TREE02", 0, 0
+}
+
+// Trird party trees
+Texture "TR01", 256, 256
+{
+	Patch "TR01", 0, 0
+}
+
+Texture "TR02", 256, 201
+{
+	Patch "TR02", 0, 0
+}
+
+Texture "TR03", 256, 384
+{
+	Patch "TR03", 0, 0
+}
+
+Texture "TR04", 128, 286
+{
+	Patch "TR04", 0, 0
+}
+
+Texture "TR05", 128, 228
+{
+	Patch "TR05", 0, 0
+}
+
 // Flats
 Texture "GROUND01", 256, 256
 {
 	Patch "GROUND01", 0, 0
+}
+
+Texture "GRASS01", 256, 256
+{
+	Patch "GRASS01", 0, 0
+}
+
+Texture "SAND01", 128, 128
+{
+	Patch "SAND01", 0, 0
 }
 
 Texture "ASPHAL01", 128, 128
@@ -69,6 +115,11 @@ Texture "BORDER01", 8, 128
 Texture "TILE01", 32, 32
 {
 	Patch "TILE01", 0, 0
+}
+
+Texture "TILE02", 64, 64
+{
+	Patch "TILE02", 0, 0
 }
 
 Texture "CONCRE01", 32, 32
